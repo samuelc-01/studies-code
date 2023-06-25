@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <title>Loading</title>
+
+
+<head>
+<style>
+    body{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh;
+    }
+    .ball,
+    .ball-two {
+        width:100px;
+        height: 100px;
+        position: relative;
+        border-radius: 100%;
+        
+    }
+    .ball{
+        background-color: aqua;
+
+        animation-name: loadingEffect-1;
+        animation-duration: 4s;
+    }
+    .ball-two {
+        background-color: blueviolet;
+        animation-name: loadingEffect-2;
+        animation-duration: 4s;
+    }
+
+    @keyframes loadingEffect-1 {
+        0%{
+            left: 0;
+            top: 0;
+
+        }
+        50% {
+            left: 300px;
+            top: 0px;
+        }
+        75%{
+            right:300px;
+            top: 0px;
+        }
+    }
+
+    @keyframes loadingEffect-2 {
+        0%{
+            right: 300px;
+            top: 0;
+
+        }
+        50% {
+            right: 600px;
+            top: 0px;
+            transition-timing-function: ease-in;
+        }
+    }
+
+</style>
+
+</head>
+
+<body>
+    <div class="ball"></div>
+    <div class="ball-two"></div>
+</body>
+
+
+
+</html>

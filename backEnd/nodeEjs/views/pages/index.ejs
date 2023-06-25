@@ -1,0 +1,35 @@
+<!DOCTYPE html>   
+
+    <%- include('../partials/head'); %>
+    
+    
+    <body class="container">
+        <%- include('../partials/header', {pagina: 'Home'}); %>
+        <main>
+            <div class="jumbotron">
+                <h1>Objetivos</h1>
+                
+                <ul>
+                    <li class="text-muted">Busco o primeiro emprego em desenvolvimento de software</li>
+                    <li class="text-muted">Busco desenvolvimento e crescimento pessoal</li>
+                    <li class="text-muted">Busco a fluência no Inglês(Nível intermediario)</li>
+                
+                </ul>
+                <p> <%= subtitle%></p>
+            </div>
+
+            <ul>
+                <% qualitys.forEach(function(quality){ %>
+                    <li>
+                        <strong><%= quality.title%></strong> <%=quality.message %>
+                    </li>
+                <% }); %>
+                
+           <ul>
+        </main>  
+        
+        <%- include('../partials/footer'); %>
+
+    </body>   
+</html>
+

@@ -1,0 +1,63 @@
+<!--atributos comuns
+
+    - autocomplete
+    - autofocus(ele é um boolean)
+    - disabled (desabilitado) boolean
+    - readonly (quase todos)
+    - value
+    - form (quase todos)
+    - name
+    - required (quase todos)
+    - placeholder (quase todos)
+-->
+<form id="meu-form"></form>
+<label for="senha">Senha</label>
+<input 
+id="password"
+name="password" 
+type="password" 
+form="meu-form"
+placeholder="Digite sua senha"
+required
+>
+
+<!--
+    <input type="password">
+     
+-->
+
+<form action="">
+
+    <input type="password"
+        minlength="4"
+        maxlength="8"
+        size="8"
+    >
+    <button type="submit">Enviar</button>
+
+
+</form>
+
+
+
+
+<datalist id="urlsdata">
+    <option>https://meusite.com.br</option>
+</datalist>
+<form action="">
+    <input type="url"
+    placeholder="https://example.com.br"
+    maxlength="58"
+    pattern=".*\.com\.br.*"
+    title="Somente domínios .com.br serão aceitos"
+    required
+    list="urlsdata"
+    >
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- 
+    <input type="file">
+-->
+
+<form action="" method="post" 

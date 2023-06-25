@@ -1,0 +1,22 @@
+Metódos HTTP
+
+* POST
+ -- a API recebe informações que deve mou não ser registradas
+ 
+* GET
+ -- a API fornece informações
+
+* PUT
+ -- a API recebe informações para update de um ou mais registros
+
+
+* DELETE
+ -- a API recebe identificadores de registros que devem ser apagados
+
+
+* PATCH
+ -- a API recebe informações para update de um registro (atualizações em um unico registro diferença para o PUT)
+
+ ###################################################################
+
+

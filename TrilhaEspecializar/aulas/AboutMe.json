@@ -1,0 +1,22 @@
+{
+    "nome": "Samuel Cristian dos Santos",
+    "cidade": "Divinópolis",
+    "Telefone": " 988549143",
+    "livros_favoritos": [
+        "Livro da ciência",
+        "clear code",
+        "park dark"
+    ],
+    "hobbies": {
+        "semana": "patição",
+        "fim_de_semana": {
+            "sabado": "cinema",
+            "domingo": "parque",
+            "outros": [
+                "caminhada",
+                "futebol",
+                "netiflix"
+            ]
+        }
+    }
+}
